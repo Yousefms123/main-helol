@@ -1,0 +1,50 @@
+@media (max-width: 500px) {
+	.hero-section {
+		height: 100%;
+	}
+	.icon-section {
+		width: 90%;
+		margin: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.experience {
+		height: 100%;
+	}
+	.grid-clent {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.hero-btn {
+		display: flex;
+		flex-direction: column;
+	}
+	.hero-btn div {
+		margin-top: 1rem;
+		width: 100%;
+	}
+	.hero-btn div button {
+		width: 100%;
+	}
+	.our-work {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+}
+@media (min-width: 501px) and (max-width: 991px) {
+	.hero-section {
+		height: 100%;
+	}
+	.experience {
+		height: 100%;
+	}
+	.grid-clent {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.our-work {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+}
