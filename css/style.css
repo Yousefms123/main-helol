@@ -22,6 +22,7 @@ h1 {
 /* header style */
 .first-section {
 	background-color: var(--main-color);
+	height: 85vh;
 }
 .navbar {
 	background-color: var(--main-color);
